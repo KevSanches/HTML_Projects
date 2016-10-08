@@ -1,4 +1,20 @@
-p {
-	color: blue;
-	width: 800px;
+html {
+	font-size: 15px;
+	font-family: 'Abhaya Libre', serif;
+}
+
+h1 {
+	font-size: 60px; 
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: left;
+}
+
+p, li {
+	font-size: 15px;
+	line-height: 2;
+	letter-spacing: 2px;
 }
