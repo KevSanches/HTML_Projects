@@ -6,14 +6,17 @@ html {
 h1 {
 	font-size: 60px; 
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 h2 {
 	font-size: 30px;
 	text-align: left;
+	letter-spacing: 2px;
 }
 
 p, li {
+	color: gray;
 	font-size: 15px;
 	line-height: 2;
 	letter-spacing: 2px;
