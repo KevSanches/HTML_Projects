@@ -1,23 +1,43 @@
 html {
+	background-color: #E7EAEE;
 	font-size: 15px;
 	font-family: 'Abhaya Libre', serif;
 }
 
+body {
+	width: 900px; 
+	margin: 0 auto;
+	background-color: #F3AFB0;
+	padding: 15px 20px 20px 20px
+	border: 7px solid black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
 h1 {
+	color: #CACAD2;
 	font-size: 60px; 
 	text-align: center;
 	letter-spacing: 2px;
+	text-shadow: 2px 3px 2px black;
 }
 
 h2 {
+	color: #76768D;
 	font-size: 30px;
 	text-align: left;
 	letter-spacing: 2px;
+	text-shadow: 2px 3px 2px black;
+
 }
 
 p, li {
-	color: gray;
+	color: black;
 	font-size: 15px;
 	line-height: 2;
 	letter-spacing: 2px;
+	text-shadow: 3px 1px 1px grey;
 }
