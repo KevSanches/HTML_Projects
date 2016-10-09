@@ -14,7 +14,7 @@ image.onclick = function() {
 }
 
 function Set_User_Name() {
-	var userName = prompt('Please, type your name');
+	var userName = prompt('Please, enter your name');
 	localStorage.setItem('name', userName);
 	heading.textContent = 'The Police is cool, ' + userName;
 }
