@@ -28,7 +28,7 @@ h1 {
 h2 {
 	color: #76768D;
 	font-size: 30px;
-	text-align: left;
+	text-align: justify;
 	letter-spacing: 2px;
 	text-shadow: 2px 3px 2px black;
 
@@ -42,3 +42,11 @@ p, li {
 	text-shadow: 3px 1px 1px grey;
 }
 
+button {
+	height: 25px; 
+    width: 120px; 
+    margin: 30px -50px; 
+    position: relative;
+    top: 50%; 
+    left: 50%;
+}
