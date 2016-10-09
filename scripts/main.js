@@ -5,8 +5,7 @@ image.onclick = function() {
 	if (src === 'images/600_65.jpg') {
 		image.setAttribute('src', 'images/tp.jpg');
 	}
-	else {
-		image.setAttribute('src', '600_65.jpg');
-
+	if (src === 'images/tp.jpg'){
+		image.setAttribute('src', 'images/600_65.jpg');
 	}
 }
